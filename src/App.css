@@ -25,6 +25,10 @@
   margin: 10px;
 }
 
+.btnList button {
+  padding: 6px 12px;
+}
+
 .headerUser {
   display: inline-flex;
   gap: 10px;
@@ -40,4 +44,39 @@
   border-radius: 6px;
   cursor: pointer;
 }
+
+.table-list {
+  margin: 16px auto;
+  width: 60%;
+  /* border-collapse: separate; */
+  border-collapse: collapse;
+}
+
+.table-list th, td {
+  border: 1px solid #ccc;
+  padding: 6px;
+}
+
+.table-list thead {
+  background-color: #eee;;
+}
+
+.table-list td a {
+  text-decoration: none;
+  color: #333;
+}
+
+.table-list tr a:hover {
+  text-decoration: underline;
+}
+
+.btn-add {
+  text-align: right;
+  margin-right: 20%;
+}
+
+.btn-add button {
+  padding: 6px 12px;
+}
+
 
