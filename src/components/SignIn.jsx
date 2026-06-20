@@ -57,7 +57,7 @@ const SignIn = ({onLogin}) => {
         <div className="signIn">
             <h2>로그인</h2>
             {/* 폼 태그 사용 */}
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className="signInForm">
                 <p>
                     <input
                         type="text"

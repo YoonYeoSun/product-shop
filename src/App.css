@@ -22,7 +22,7 @@
 }
 
 .btnList {
-  margin: 10px;
+  margin: 20px;
 }
 
 .btnList button {
@@ -79,4 +79,83 @@
   padding: 6px 12px;
 }
 
+/* 상품 정보 스타일 */
+.productDetails {
+  width: 40%;
+  background-color: #eee;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
 
+.productDetails p {
+  margin: 16px;
+}
+
+/* 상품 등록 스타일 */
+.addForm {
+  width: 40%;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.addForm label {
+  display: block;
+  margin: 6px;
+}
+
+.addForm input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addForm textarea {
+  resize: none;
+}
+
+.addForm button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: #eee;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* 로그인 스타일 */
+.signInForm {
+  width: 30%;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.signInForm input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signInForm textarea {
+  resize: none;
+}
+
+.signInForm button {
+  width: 100%;
+  padding: 8px 16px;
+  margin-left: 3%;
+  background-color: #28a745;
+  color: #eee;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}

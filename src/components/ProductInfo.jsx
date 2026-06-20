@@ -23,8 +23,8 @@ const ProductInfo = () => {
     }
 
     return (
-        <div>
-            <h3>상품 ID : {id}</h3>
+        <div className="productDetails">
+            <p>상품 ID : {id}</p>
             {/* <p>이름 : {products[id-1].name}</p>
             <p>가격 : {products[id-1].price}</p>
             <p>상세 : {products[id-1].description}</p> */}
